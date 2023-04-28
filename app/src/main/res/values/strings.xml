@@ -1,3 +1,38 @@
 <resources>
-    <string name="app_name">T\'Fantastic Tugas</string>
+    <string name="app_name">T_FantasticProject</string>
+
+
+    <string-array name="data_name">
+        <item>Push Up</item>
+        <item>Back Lift</item>
+        <item>Sit Up</item>
+        <item>Shoulders Press</item>
+        <item>Leg Squat</item>
+        <item>Speed Run 50 Meter</item>
+        <item>Squat Jump</item>
+        <item>Yoga</item>
+        <item>Vertical Jump</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Push up memiliki manfaat untuk menguatkan otot dada, bahu dan juga trisep. Push up dapat membentuk otot punggung bawah dan perut. Push up dinilai sangat efektif untuk meningkatkan massa otot dan kesehatan jantung</item>
+        <item>Back lift berfungsi untuk membentuk otot punggung. Manfaat back lift untuk meningkatkan kekuatan tubuh, menurunkan berat badan, mengurangi resiko cedera dan memperbaiki postur tubuh.</item>
+        <item>Sit up berguna untuk melatih berbagai otot seperti, otot perut, dada, pinggang, leher dan juga otot panggul. Sit up memberikan banyak manfaat salah satunya memperbaiki keseimbangan tubuh.</item>
+        <item>Shoulders Press dilakukan untuk melatih kekuatan otot lengan serta otot bahu. Untuk jenis kebugaran jasmani ini dapat dilakukan dengan menggunakan alat barbel. Olahraga ini bermanfaat untuk meningkatkan kekuatan otot lengan</item>
+        <item>Leq squat adalah olahraga kebugaran jasmani yang bertujuan untuk melatih otot tungkai. Leg Squat memberikan manfaat diantaranya, dapat memperkuat otot inti, membakar kalori tubuh serta melancarkan pencernaan</item>
+        <item>Speed run 50 meter bertujuan untuk melatih ketangkasan dalam mengukur daya kecepatan bergerak. Manfaat dari lari cepat 50 meter ini diantaranya, dapat melatih kelincahan serta dapat mengukur daya tahan tubuh</item>
+        <item>Squat jump dapat melatih otot paha belakang, pinggul serta otot bokong. Squat jump memberikan manfaat yaitu, mampu memperkuat ketahanan otot kaki dan menjaga keseimbangan tubuh</item>
+        <item>Yoga merupakan latihan kelenturan dan kekuatan, termasuk otot-otot di dasar panggul. Manfaat yoga bagi kesehatan tubuh yaitu, dapat menjaga kesehatan jantung dan paru-paru serta mengurangi nyeri punggung</item>
+        <item>Vertical jump guna melatih otot kaki dan daya ledak. Vertical jump bermanfaat untuk menguatkan otot kaki serta memampukan otot tubuh untuk mengeluarkan tenaga maksimal dalam waktu singkat</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/push_up</item>
+        <item>@drawable/back_lift</item>
+        <item>@drawable/sit_up</item>
+        <item>@drawable/shoulders_press</item>
+        <item>@drawable/leg_squat</item>
+        <item>@drawable/speed_run</item>
+        <item>@drawable/squat_jump</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/vertikal_jump</item>
+    </integer-array>
 </resources>
