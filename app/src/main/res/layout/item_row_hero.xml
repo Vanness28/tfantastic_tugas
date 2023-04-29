@@ -26,7 +26,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars" />
+            tools:src="@tools:sample/backgrounds/scenic" />
 
         <TextView
             android:id="@+id/tv_name"
@@ -37,7 +37,7 @@
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/iv_photo"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Ahmad Yani" />
+            tools:text="Jenis Olahraga" />
 
         <TextView
             android:id="@+id/tv_description"
@@ -49,6 +49,6 @@
             app:layout_constraintBottom_toBottomOf="@+id/iv_photo"
             app:layout_constraintStart_toEndOf="@+id/iv_photo"
             app:layout_constraintTop_toBottomOf="@+id/tv_name"
-            tools:text="Description" />
+            tools:text="Deskripsi Olahraga" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
