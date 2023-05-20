@@ -8,13 +8,33 @@
     tools:context=".SplashScreen"
     android:id="@+id/splash_screen">
 
+
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:backgroundTint="#FFFFFF"
-        android:scaleType="centerCrop"
+        android:scaleType="centerInside"
         android:src="@drawable/logo"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Healty Life"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:text="Aplikasi Informasi Kesehatan dan Kebugaran Tubuh"
+        android:textColor="#808080"
+        android:textSize="15sp" />
 </RelativeLayout>
